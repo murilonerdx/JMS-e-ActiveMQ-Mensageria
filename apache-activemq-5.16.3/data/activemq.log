@@ -69,3 +69,42 @@
 2022-01-06 17:56:49,748 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
 2022-01-06 17:56:49,748 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
 2022-01-06 18:03:35,828 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1411274497-65
+2022-01-06 18:12:20,782 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66983d4d: startup date [Thu Jan 06 18:12:20 BRT 2022]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2022-01-06 18:12:21,275 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\T-GAMER\Desktop\JMS-e-ActiveMQ-Mensageria\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-01-06 18:12:21,299 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-01-06 18:12:21,302 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2022-01-06 18:12:21,306 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-01-06 18:12:21,323 | INFO  | PListStore:[C:\Users\T-GAMER\Desktop\JMS-e-ActiveMQ-Mensageria\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2022-01-06 18:12:21,452 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-T6KTKSE-62146-1641503541329-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-01-06 18:12:21,486 | INFO  | Listening for connections at: tcp://DESKTOP-T6KTKSE:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,488 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-01-06 18:12:21,490 | INFO  | Listening for connections at: amqp://DESKTOP-T6KTKSE:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,490 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-01-06 18:12:21,493 | INFO  | Listening for connections at: stomp://DESKTOP-T6KTKSE:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,493 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-01-06 18:12:21,495 | INFO  | Listening for connections at: mqtt://DESKTOP-T6KTKSE:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,496 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-01-06 18:12:21,499 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,538 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-01-06 18:12:21,609 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@f714c6e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2022-01-06 18:12:21,656 | INFO  | Listening for connections at ws://DESKTOP-T6KTKSE:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2022-01-06 18:12:21,656 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-01-06 18:12:21,656 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-T6KTKSE-62146-1641503541329-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-01-06 18:12:21,657 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-01-06 18:12:22,128 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-01-06 18:12:22,128 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-01-06 18:15:17,787 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp478638476-91
+2022-01-06 18:25:51,531 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-T6KTKSE-62146-1641503541329-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,534 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,534 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,535 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,535 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,539 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,540 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,541 | INFO  | PListStore:[C:\Users\T-GAMER\Desktop\JMS-e-ActiveMQ-Mensageria\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,542 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,542 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,542 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,548 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-T6KTKSE-62146-1641503541329-0:1) uptime 13 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,548 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-T6KTKSE-62146-1641503541329-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2022-01-06 18:25:51,548 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66983d4d: startup date [Thu Jan 06 18:12:20 BRT 2022]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook

@@ -10,5 +10,7 @@
     <orderEntry type="library" name="activemq-all-5.16.3" level="project" />
     <orderEntry type="library" name="com.fasterxml.jackson.databind-2.10.5.1.LIFERAY-PATCHED-1" level="project" />
     <orderEntry type="library" name="jackson-core-2.13.0-rc1" level="project" />
+    <orderEntry type="library" name="share" level="project" />
+    <orderEntry type="library" name="javax.jms" level="project" />
   </component>
 </module>

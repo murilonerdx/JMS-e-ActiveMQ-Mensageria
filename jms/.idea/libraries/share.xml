@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="share">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../jms1.1/src/share" />
+    </SOURCES>
+  </library>
+</component>
