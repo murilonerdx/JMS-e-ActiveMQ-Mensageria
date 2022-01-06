@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.fasterxml.jackson.databind-2.10.5.1.LIFERAY-PATCHED-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.fasterxml.jackson.databind-2.10.5.1.LIFERAY-PATCHED-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
