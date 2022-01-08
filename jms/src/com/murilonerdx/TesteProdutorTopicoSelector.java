@@ -1,7 +1,12 @@
 package com.murilonerdx;
 
+import com.murilonerdx.modelo.Pedido;
+import com.murilonerdx.modelo.PedidoFactory;
+
 import javax.jms.*;
 import javax.naming.InitialContext;
+import javax.xml.bind.JAXB;
+import java.io.StringWriter;
 
 public class TesteProdutorTopicoSelector {
 
@@ -15,13 +20,23 @@ public class TesteProdutorTopicoSelector {
         connection.start();
 
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
         Destination topico = (Destination) context.lookup("loja");
 
         MessageProducer producer = session.createProducer(topico);
 
 
-        Message message = session.createTextMessage("<pedido><id><123></id><ebook>true</ebook></pedido>");
-        message.setBooleanProperty("ebook", true);
+        Pedido pedido = new PedidoFactory().geraPedidoComValores();
+
+//        StringWriter stringWriter = new StringWriter();
+//        JAXB.marshal(pedido, stringWriter);
+//        String xml = stringWriter.toString();
+//        message.setBooleanProperty("ebook", true);
+
+//        Message message = session.createTextMessage(xml);
+
+        Message message = session.createObjectMessage(pedido);
+
         producer.send(message);
 
         session.close();

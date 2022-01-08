@@ -12,5 +12,8 @@
     <orderEntry type="library" name="jackson-core-2.13.0-rc1" level="project" />
     <orderEntry type="library" name="share" level="project" />
     <orderEntry type="library" name="javax.jms" level="project" />
+    <orderEntry type="library" name="javax.xml.bind" level="project" />
+    <orderEntry type="library" name="jakarta.activation-2.0.1" level="project" />
+    <orderEntry type="library" name="activation-1.1.1" level="project" />
   </component>
 </module>
